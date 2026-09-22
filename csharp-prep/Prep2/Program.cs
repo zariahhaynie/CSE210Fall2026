@@ -18,7 +18,7 @@ class Program
          else if (percentage > 60)
             Console.WriteLine("You got a D");
         else
-            Console.WriteLine("You got an F");
+            Console.WriteLine("You got an F, better luck next time!!");
 
     }
 }
