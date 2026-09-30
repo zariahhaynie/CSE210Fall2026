@@ -1,9 +1,18 @@
-using System;
+using System.Collections.Generic;
 
-class Program
+public class Resume
 {
-    static void Main(string[] args)
+    public string name;
+    public List<Job> jobs = new List<Job>();
+
+    public void Display()
     {
-        Console.WriteLine("Hello Learning02 World!");
+        Console.WriteLine("Name: " + this.name);
+        Console.WriteLine("Jobs:");
+
+        foreach (Job job in jobs)
+        {
+            job.Display();
+        }
     }
 }
