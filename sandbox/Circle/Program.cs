@@ -6,7 +6,7 @@
         Console.WriteLine("Hello Circle");
 
         Circle myCircle = new Circle();
-        myCircle._radius = 10;
+        myCircle.SetRadius(10);
 
         double area = myCircle.GetArea();
 
