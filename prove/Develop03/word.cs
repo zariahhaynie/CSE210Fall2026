@@ -18,7 +18,7 @@ class Word
     }
     public void Display()
     {
-        Console.Write($"{_word} ");
+        Console.Write($"{GetWordString()} ");
     }
     public string GetWordString()
     {
